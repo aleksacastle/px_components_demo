@@ -1,0 +1,23 @@
+<px-branding-bar application-title="Solano CI"></px-branding-bar>
+<px-app-nav
+    items='[
+      { "id" : "home",   "icon" : "px-nav:hamburger" },
+      {
+        "id" : "account",
+        "label" : "account-name",
+        "icon" : "px-fea:dashboard",
+        "children" : [
+          {
+            "id" : "account-settings",
+            "label" : "Account Settings"
+          },
+          {
+            "id" : "account-info",
+            "label" : "Account info"
+          }
+        ]
+      }
+
+    ]'
+    selected-route='["assets","a1"]'>
+</px-app-nav>
